@@ -52,9 +52,15 @@ async def on_message(message):
     await message.channel.send(Yes)
 #Deez command end
 
+#Tank command start
+  if message.content.startswith("!tank"):
+    Command = "https://tenor.com/view/tank-gif-15070190"
+    await message.channel.send(Command)
+#Tank command end
+
 #Command command start
   if message.content.startswith("!command"):
-    Command = "Deez, Ligma, TSP is a god"
+    Command = "Deez, Ligma, TSP is a god, !tank"
     await message.channel.send(Command)
 #Command command end
 
