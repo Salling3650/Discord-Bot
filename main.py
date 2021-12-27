@@ -25,11 +25,9 @@ async def on_message(message):
     quote = get_quote()
     await message.channel.send(quote) 
  
-@bot.event
-async def on_message(message):
-    if(message.channel.id == 924952660862435338):
-        await bot.add_reaction(message,
-        924955343925149736, 924955456802271252)
+#Auto react start
+
+#Auto react end
 
 #Deez command start
   if message.content.startswith("Deez"):
