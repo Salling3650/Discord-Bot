@@ -25,10 +25,6 @@ async def on_message(message):
     quote = get_quote()
     await message.channel.send(quote) 
  
-#Auto react start
-
-#Auto react end
-
 #Deez command start
   if message.content.startswith("Deez"):
     Nuts = "...nuts in your mouth"
@@ -55,6 +51,16 @@ async def on_message(message):
     await message.channel.send(Yes)
 #TSP_is_a_god command end
 
+#Bushpotato command starts
+  if message.content.startswith("Bushpotato is a mod"):
+    Mod = "https://tenor.com/view/thats-right-baby-gru-steve-carell-despicable-me2-thats-correct-gif-16561725"
+    await message.channel.send(Mod)
+
+  if message.content.startswith("bushpotato is a mod"):
+    mod = "https://tenor.com/view/thats-right-baby-gru-steve-carell-despicable-me2-thats-correct-gif-16561725"
+    await message.channel.send(mod)
+#Bushpotato command ends
+
 #Tank command start
   if message.content.startswith("!tank"):
     Command = "https://tenor.com/view/tank-gif-15070190"
@@ -79,9 +85,29 @@ async def on_message(message):
     await message.channel.send(cake)
 #The_cake_is_a_lie command end
 
+#Deez command start
+  if message.content.startswith("Wilma"):
+    Cock = "...cock fit in your mouth"
+    await message.channel.send(Cock)
+
+  if message.content.startswith("wilma"):
+    Cock1 = "...cock fit in your mouth"
+    await message.channel.send(Cock1)
+#Deez command end
+
+#Tax evasion command start
+  if message.content.startswith("pls tax evasion"):
+    Tax = "Under construction"
+    await message.channel.send(Tax)
+
+  if message.content.startswith("Pls tax evasion"):
+    Tax1 = "Under construction"
+    await message.channel.send(Tax1)
+#Tax evasion command end
+
 #Command command start
   if message.content.startswith("!command"):
-    Command = "Deez, Ligma, TSP is a god, !tank, !fuck"
+    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck"
     await message.channel.send(Command)
 #Command command end
 
