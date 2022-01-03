@@ -97,17 +97,37 @@ async def on_message(message):
 
 #Tax evasion command start
   if message.content.startswith("pls tax evasion"):
-    Tax = "Under construction"
+    Tax = "https://store.steampowered.com/app/1205450/Turnip_Boy_Commits_Tax_Evasion/"
     await message.channel.send(Tax)
 
   if message.content.startswith("Pls tax evasion"):
-    Tax1 = "Under construction"
+    Tax1 = "https://store.steampowered.com/app/1205450/Turnip_Boy_Commits_Tax_Evasion/"
     await message.channel.send(Tax1)
 #Tax evasion command end
 
+#Offended command starts
+  if message.content.startswith("I’m offended"):
+    Offended = "https://tenor.com/view/disney-penis-go-fuck-yourself-dick-gif-15801892"
+    await message.channel.send(Offended)
+
+  if message.content.startswith("I'm offended"):
+    Offended1 = "https://tenor.com/view/disney-penis-go-fuck-yourself-dick-gif-15801892"
+    await message.channel.send(Offended1)
+#Offended command ends
+
+#8chan command starts
+  if message.content.startswith("Pls 8chan"):
+    help = "https://tenor.com/view/stop-it-get-some-help-gif-15058124"
+    await message.channel.send(help)
+
+  if message.content.startswith("pls 8chan"):
+    help1 = "https://tenor.com/view/stop-it-get-some-help-gif-15058124"
+    await message.channel.send(help1)
+#8chan command ends
+
 #Command command start
   if message.content.startswith("!command"):
-    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck"
+    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck, I'm offended"
     await message.channel.send(Command)
 #Command command end
 
