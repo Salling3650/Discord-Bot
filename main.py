@@ -115,6 +115,12 @@ async def on_message(message):
     await message.channel.send(Offended1)
 #Offended command ends
 
+#Simp command start
+  if message.content.startswith("!simp"):
+    Simp = "https://tenor.com/view/simp-pewdiepie-pewdipie-simp-meme-funny-gif-19594363"
+    await message.channel.send(Simp)
+#Simp command end
+
 #8chan command starts
   if message.content.startswith("Pls 8chan"):
     help = "https://tenor.com/view/stop-it-get-some-help-gif-15058124"
@@ -125,9 +131,31 @@ async def on_message(message):
     await message.channel.send(help1)
 #8chan command ends
 
+#Depressed command start
+  if message.content.startswith("!depressed"):
+    goodbye = "https://tenor.com/view/pepe-dead-death-boom-4chan-gif-20425333"
+    await message.channel.send(goodbye)
+#Depressed command end
+
+#Your mom command start
+  if message.content.startswith("I fucked"):
+    mom = "https://tenor.com/view/your-mom-mother-mom-50cent-50central-gif-10547237"
+    await message.channel.send(mom)
+
+  if message.content.startswith("!yourmom"):
+    mom1 = "https://tenor.com/view/your-mother-great-argument-however-megamind-your-mom-yo-mama-gif-22994712"
+    await message.channel.send(mom1)
+#Your mom command end
+
+#Goodbye command start
+  if message.content.startswith("!goodbye"):
+    goodbye = "https://tenor.com/view/no-country-for-old-men-shower-curtain-gif-22181443"
+    await message.channel.send(goodbye)
+#Goodbye command end
+
 #Command command start
   if message.content.startswith("!command"):
-    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck, I'm offended"
+    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck, !simp, !goodbye, !depressed, I'm offended"
     await message.channel.send(Command)
 #Command command end
 
