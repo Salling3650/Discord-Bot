@@ -153,9 +153,27 @@ async def on_message(message):
     await message.channel.send(goodbye)
 #Goodbye command end
 
+#Penis command start
+  if message.content.startswith("!penis"):
+    penis = "https://tenor.com/view/stickman-jumping-jump-funny-stickman-stickman-penis-gif-11927660"
+    await message.channel.send(penis)
+#Penis command end
+
+#Penis command start
+  if message.content.startswith("!nut"):
+    nut = "https://tenor.com/view/peanuts-peanut-factory-nuts-gif-13787679"
+    await message.channel.send(nut)
+#Penis command end
+
+#Sex_with command start
+  if message.content.startswith("!sexwith"):
+    Simp = "https://tenor.com/view/simp-pewdiepie-pewdipie-simp-meme-funny-gif-19594363"
+    await message.channel.send(Simp)
+#Sex_with command end
+
 #Command command start
   if message.content.startswith("!command"):
-    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck, !simp, !goodbye, !depressed, I'm offended"
+    Command = "Deez, Ligma, Wilma, TSP is a god, !tank, !fuck, !simp, !goodbye, !depressed, !yourmom, I'm offended !penis"
     await message.channel.send(Command)
 #Command command end
 
